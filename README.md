@@ -48,6 +48,13 @@ Reading materials:
 * https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions
 * Google the relevant actions
 
+## Nektos/Act
+https://github.com/nektos/act
+
+### Deliveries:
+
+* What is Act? Why and when should we use it?
+* How can I test `upload-artifact` and `download-artifact` steps with Act?
 
 ## Continuous Integration - Linting
 ### Deliveries:
