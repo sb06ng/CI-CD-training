@@ -1,10 +1,11 @@
 import asyncio
 import ipaddress
 from argparse import ArgumentParser
+
 from fastapi import FastAPI
 from fastapi.params import Body, Path
-from hypercorn.config import Config
 from hypercorn.asyncio import serve
+from hypercorn.config import Config
 
 rest_api = FastAPI()
 
@@ -13,9 +14,9 @@ persons_list = []
 
 class person:
     def __init__(self, name, age, description):
-        self.name == name
-        self.age == age
-        self.description == description
+        self.name = name
+        self.age = age
+        self.description = description
 
     def __eq__(self, other):
         return self.name == other.name
